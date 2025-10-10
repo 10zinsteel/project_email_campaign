@@ -33,38 +33,49 @@
               </td>
             </tr>
             <!-- Main heading with centered transparent background logo -->
-            <tr>
-              <td
-                background="img/voltpro_logo_bg.png"
-                style="
-                  position:relative;
-                  padding:60px 30px;
-                  background-size:200px;
-                  background-repeat:no-repeat;
-                  background-position:center;
-                  background-color:#ffffff;
-                  text-align:center;
-                  color:#222222;
-                "
-              >
-                <div style="
-                  background-color:rgba(255,255,255,0.9);
-                  padding:20px;
-                  border-radius:6px;
-                  display:inline-block;
-                  max-width:500px;
-                ">
-                  <h2 style="margin:0 0 10px 0; font-size:24px; color:#00DA64; font-weight:600;">
-                    Power Your Ride
-                  </h2>
-                  <p style="margin:0; font-size:16px; color:#333333;">
-                    Experience freedom, comfort, and performance with the new
-                    <strong>VoltPro</strong> electric trike. Whether commuting, running errands, or just enjoying the great outdoors,
-                    our electric bikes empower you to go farther with less effort.
-                  </p>
-                </div>
-              </td>
-            </tr>
+<tr>
+  <td
+    background="voltpro_logo_bg.png"
+    style="
+      position:relative;
+      padding:60px 30px;
+      background-size:200px;
+      background-repeat:no-repeat;
+      background-position:center;
+      background-color:#ffffff;
+      text-align:center;
+      color:#222222;
+    "
+  >
+    <!-- Full overlay covering the entire background area -->
+    <div style="
+      position:absolute;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      background-color:rgba(255,255,255,0.9);
+    "></div>
+
+    <!-- Text container (stays above the overlay) -->
+    <div style="
+      position:relative;
+      z-index:1;
+      max-width:500px;
+      margin:0 auto;
+    ">
+      <h2 style="margin:0 0 10px 0; font-size:24px; color:#00DA64; font-weight:600;">
+        Power Your Ride
+      </h2>
+      <p style="margin:0; font-size:16px; color:#333333;">
+        Experience freedom, comfort, and performance with the new
+        <strong>VoltPro</strong> electric trike. Whether commuting, running errands, or just enjoying the great outdoors,
+        our electric bikes empower you to go farther with less effort.
+      </p>
+    </div>
+  </td>
+</tr>
+
 
             <!-- Features -->
             <tr>
