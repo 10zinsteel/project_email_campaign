@@ -1,0 +1,32 @@
+Email Campaign Findings – VoltPro Electric Bikes
+
+This project was an email campaign for VoltPro Electric Bikes that focused on the Caddy Pro model. The goal was to create a responsive and interactive promotional email that works well across devices and email clients.
+
+Tools and Testing
+
+Used GitHub Pages to host and preview the email.
+
+Tested layout and accessibility with Chrome Lighthouse.
+
+Checked responsiveness on both desktop and mobile browsers.
+
+Manually verified that links, buttons, and text adjusted correctly on different screen sizes.
+
+What Worked Well
+
+The layout adjusted correctly on mobile with columns stacking as expected.
+
+Buttons, hover effects, and animations worked properly in web browsers.
+
+The main “Shop Now” button animation looped smoothly.
+
+The email displayed correctly in Gmail and Outlook web versions.
+
+What Didn’t Work as Well
+
+The checkbox reveal section worked in browsers but not in every email client, which is expected for interactive email code.
+
+Background images and animations appeared slightly different in some Outlook desktop versions.
+
+Summary
+The project met all the main requirements, including responsive multi-column layouts, interactivity, and animation. It successfully demonstrates how to design and code a working email campaign that can adapt across platforms.
